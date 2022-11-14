@@ -37,9 +37,11 @@ Name: loan_status, dtype: int64
 
 ![Balanced Accuracy Score](/Images/Balanced_accuracy_score.png)
 
+
 ![Confusion Matrix](/Images/confusion_matrix.png")
 
-![Classification report](/Images/calssification_report.png")
+
+![Classification report](/Images/classification_report.png")
 
 * To obtain better accuracy score and to improve  classification of  all type of loans, I used the LogisticRegression classifier and the resampled data to fit the model and make predictions.
 ```
@@ -57,13 +59,14 @@ Name: loan_status, dtype: int64
 - From 619 loan status that are non-healthy (high-risk), the model 
    predicted 615 as non-healthy correctly and 4 as non-healthy incorrectly.
 - With hight balanced accuracy score of 99%
+
 ![Balanced Accuracy Score](/Images/balanced accuracy score.png)
 
 ![Confusion Matrix](/Images/confusion matrix.png")
 
-![Classification report](/Images/calssification_report_imbalanced.png")
+![Classification report](/Images/classification_report_imbalanced.png")
 
-## **Summary**
+## Summary
 - The main goal for this analysis is to find out the model which will be correctly classifying  healthy  and non-healthy loans.
 
     
